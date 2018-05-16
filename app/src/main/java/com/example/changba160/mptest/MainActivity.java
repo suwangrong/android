@@ -21,6 +21,8 @@ import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.data.PieEntry;
+import com.github.mikephil.charting.highlight.Highlight;
+import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,8 +43,12 @@ public class MainActivity extends AppCompatActivity {
     private PieChart mPieChart2;
 
     private Handler handler = new Handler(){
+
+
         @Override
         public void handleMessage(Message msg) {
+
+            mLineChart.animateXY(1500,1500);
             super.handleMessage(msg);
             switch (msg.what){
                 case 0x101:
@@ -65,6 +71,19 @@ public class MainActivity extends AppCompatActivity {
         mLineChart = (LineChart) findViewById(R.id.lineChart);
         mLineChart2 = (LineChart) findViewById(R.id.lineChart2);
         mLineChart3 = (LineChart) findViewById(R.id.lineChart3);
+
+        //设置自定义的点击事件
+        mLineChart.setOnChartValueSelectedListener(new OnChartValueSelectedListener() {
+            @Override
+            public void onValueSelected(Entry e, Highlight h) {
+                Log.e("true","dianji");
+            }
+
+            @Override
+            public void onNothingSelected() {
+
+            }
+        });
 
 
         mPieChart = ((PieChart) findViewById(R.id.pc_chart));
@@ -122,6 +141,7 @@ public class MainActivity extends AppCompatActivity {
         Description description = new Description();
         description.setText("ssss");
         mPieChart.setDescription(description);
+        mPieChart2.setDescription(description);
         mPieChart.animateXY(1500,1500);
         mPieChart2.setData(pieData);
         mPieChart2.animateXY(1500,1500);
@@ -132,6 +152,7 @@ public class MainActivity extends AppCompatActivity {
         mLineChart.setDrawBorders(true);
         mLineChart2.setDrawBorders(true);
         mLineChart3.setDrawBorders(true);
+        mLineChart.setBackgroundColor(Color.WHITE);
         mLineChart2.setBackgroundColor(Color.rgb(0,100,0));
         mLineChart3.setBackgroundColor(Color.RED);
         //设置数据
@@ -170,6 +191,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void run() {
             initData();
+
             handler.sendEmptyMessage(0x101);//通过handler发送一个更新数据的标记
         }
 
@@ -183,7 +205,13 @@ public class MainActivity extends AppCompatActivity {
             LineData datas = new LineData(lineDataSet);
             mLineChart.setData(datas);
             mLineChart.setBackgroundColor(Color.GREEN);
+            mLineChart2.setBackgroundColor(Color.GREEN);
             mLineChart.invalidate();
+
+//            mPieChart2.animateXY(1500,1500);
+//            mLineChart.animateXY(1500,1500);
+//            mLineChart2.animateXY(1500,1500);
+//            mLineChart3.animateXY(1500,1500);
         }
     }
 

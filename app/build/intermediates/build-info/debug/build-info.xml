@@ -2,44 +2,91 @@
 <instant-run
     abi="x86"
     api-level="28"
-    build-mode="COLD"
+    build-mode="FULL"
     density="420dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.1"
-    timestamp="1526281997358"
+    timestamp="1526474750104"
     token="-7640497193927738751"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="163" />
+        duration="200" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="130" />
+        duration="46" />
     <task
         name="verifier"
-        duration="17" />
+        duration="10" />
 
     <artifact
         location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
+    <artifact
+        location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/outputs/apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1526264894318"
+        timestamp="1526474750104"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
+            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
             location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
@@ -51,56 +98,8 @@
             location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1526279041706"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1526281997358"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>
