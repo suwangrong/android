@@ -1,4 +1,4 @@
-#Thu May 17 14:31:42 CST 2018
-base.0=/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/transforms/dexMerger/debug/41
+#Tue Jun 05 16:56:58 CST 2018
+base.0=/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/transforms/dexMerger/debug/98
 path.0=classes.dex
 renamed.0=classes.dex

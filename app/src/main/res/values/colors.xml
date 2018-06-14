@@ -5,4 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="background">#888888</color>
     <color name="piechar">#3bd488</color>
+    <color name="white">#FFFACD</color>
 </resources>

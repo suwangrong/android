@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:1-25:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/changba160/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b71d87e6459060640c37c124bcf97721/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/changba160/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/5c420ef936608e1e3e04a2ff90538d2b/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/changba160/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/6dd27bd66f21028e85be0055bcf92370/AndroidManifest.xml:17:1-28:12
@@ -15,25 +15,29 @@ MERGED from [com.android.support:support-core-utils:26.1.0] /Users/changba160/.g
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/changba160/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/afa19e075b4bfdb6edac2003b1c00ab7/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/changba160/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/44c7e8ec762b218565f288fbc747fa2c/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/changba160/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bdf8e7bf06d2a36f4195de33b4302fe7/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:3:5-44
 		INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml
-		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:1-25:12
 		INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml
-		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:1-25:12
 		INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:7:5-23:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/changba160/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b71d87e6459060640c37c124bcf97721/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/changba160/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b71d87e6459060640c37c124bcf97721/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/changba160/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/5c420ef936608e1e3e04a2ff90538d2b/AndroidManifest.xml:9:5-20
@@ -57,31 +61,39 @@ MERGED from [com.android.support:support-compat:26.1.0] /Users/changba160/.gradl
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/changba160/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bdf8e7bf06d2a36f4195de33b4302fe7/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/changba160/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bdf8e7bf06d2a36f4195de33b4302fe7/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:13:9-40
 activity#com.example.changba160.mptest.MainActivity
-ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:14:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:18:27-74
+activity#com.example.changba160.mptest.history
+ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:21:9-45
+	android:name
+		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:21:19-42
+activity#com.example.changba160.mptest.detail
+ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:22:9-53
+	android:name
+		ADDED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml:22:19-41
 uses-sdk
 INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/AndroidManifest.xml

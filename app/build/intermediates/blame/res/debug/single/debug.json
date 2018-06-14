@@ -760,6 +760,10 @@
         "source": "/Users/changba160/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b71d87e6459060640c37c124bcf97721/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/res/merged/debug/layout_activity_detail.xml.flat",
+        "source": "/Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/res/layout/activity_detail.xml"
+    },
+    {
         "merged": "/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat",
         "source": "/Users/changba160/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b71d87e6459060640c37c124bcf97721/res/anim/abc_fade_in.xml"
     },
@@ -830,6 +834,10 @@
     {
         "merged": "/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/res/merged/debug/anim_tooltip_enter.xml.flat",
         "source": "/Users/changba160/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b71d87e6459060640c37c124bcf97721/res/anim/tooltip_enter.xml"
+    },
+    {
+        "merged": "/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/res/merged/debug/layout_history.xml.flat",
+        "source": "/Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/res/layout/history.xml"
     },
     {
         "merged": "/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -906,6 +914,10 @@
     {
         "merged": "/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "/Users/changba160/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b71d87e6459060640c37c124bcf97721/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/res/merged/debug/layout_fragment_pie.xml.flat",
+        "source": "/Users/changba160/bishe/mp-android-chart-note/mptest/app/src/main/res/layout/fragment_pie.xml"
     },
     {
         "merged": "/Users/changba160/bishe/mp-android-chart-note/mptest/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
